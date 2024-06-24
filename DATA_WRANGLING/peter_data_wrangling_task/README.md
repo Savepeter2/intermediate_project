@@ -1,9 +1,9 @@
 Preprocessed a dataset of over 500,000 rows, extracting features and cleaning the data through the following major steps:
 
-Removing duplicates
-Removing empty rows
-Converting columns to appropriate data types
-Filtering and correcting invalid entries
+Removed duplicates
+Removed empty rows
+Converted columns to appropriate data types
+Filtered and corrected invalid entries
 
 Feature extraction focused primarily on the InvoiceDate (DateTime) column, yielding the following new columns:
 
