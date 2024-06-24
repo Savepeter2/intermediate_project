@@ -1,4 +1,4 @@
-I preprocessed a dataset of over 500,000 rows, extracting features and cleaning the data through the following major steps:
+Preprocessed a dataset of over 500,000 rows, extracting features and cleaning the data through the following major steps:
 
 Removing duplicates
 Removing empty rows
