@@ -19,16 +19,16 @@ This project implements an ETL (Extract, Transform, Load) pipeline for Online Re
 1. Clone the repository:
 git clone https://github.com/Savepeter2/intermediate_project.git
 cd intermediate_project
-Copy
+
 2. Prepare the data:
 - Place both `Online_Retail.csv` and `Online_Retail.xlsx` in the `analytics/data` folder.
 
 3. Build and start the Docker container:
 docker-compose up --build
-Copy
+
 4. Access the container:
 docker start -ai etl-duckdb-container
-Copy
+
 5. Query the database:
 ```sql
 SELECT * FROM finance_data;
