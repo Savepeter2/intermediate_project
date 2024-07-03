@@ -1,0 +1,13 @@
+version: '3'
+services:
+  etl-duckdb:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: etl-duckdb
+    container_name: etl-duckdb-container
+    volumes:
+      - ./analytics/data:/peter_analytics_pipeline/analytics/data
+      - ./peter_analytics_pipeline/entrypoint.sh:/peter_analytics_pipeline/entrypoint.sh
+    entrypoint: ["/entrypoint.sh"]
